@@ -1,4 +1,4 @@
-package tech.imsk17.synk
+package tech.imsk17.synk.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
