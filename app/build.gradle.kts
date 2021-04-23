@@ -20,6 +20,12 @@ android {
         }
     }
 
+    packagingOptions {
+        resources {
+            excludes.add("META-INF/DEPENDENCIES")
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
